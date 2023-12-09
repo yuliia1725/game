@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.game.results">
+   <children>
+      <AnchorPane layoutX="189.0" layoutY="37.0" prefHeight="326.0" prefWidth="222.0" style="-fx-region-border: black;">
+         <children>
+            <Label layoutX="73.0" layoutY="14.0" prefHeight="32.0" prefWidth="75.0" text="Results">
+               <font>
+                  <Font name="Book Antiqua" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="59.0" prefHeight="41.0" prefWidth="152.0" text="Burst bubless:">
+               <font>
+                  <Font name="Book Antiqua" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="101.0" prefHeight="42.0" prefWidth="127.0" text="Game time:">
+               <font>
+                  <Font name="Book Antiqua" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="35.0" layoutY="143.0" prefHeight="42.0" prefWidth="127.0" text="Best result:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="63.0" layoutY="231.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" text="Start again">
+               <font>
+                  <Font name="Book Antiqua" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="65.0" layoutY="281.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="95.0" text="Exit">
+               <font>
+                  <Font name="Book Antiqua" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

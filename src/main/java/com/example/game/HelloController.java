@@ -26,7 +26,8 @@ public class HelloController {
 
     @FXML
     void clickbtn(ActionEvent event) {
-
+    event.getEventType();
+        System.out.println(event.getEventType());
     }
 
     @FXML
